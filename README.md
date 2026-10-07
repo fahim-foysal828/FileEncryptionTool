@@ -40,7 +40,7 @@ Technologies Used :
 <br>
 
 
-Project Structure
+Project Structure :
 
 - README.md — Project documentation
 - CMakeLists.txt — Build and project configuration
@@ -107,6 +107,8 @@ How the Application Works :
 7. The application displays the operation status.
 
 
+
+<br>
 
 <br>
 
@@ -199,6 +201,7 @@ AES-128-CBC
    
 Encrypted Data
 
+<br>
 
 <br>
 
@@ -208,14 +211,23 @@ Password Verification :
 
 The entered password is converted into a SHA-256 hash.
 
+<br>
+
 Entered Password
-       ↓
+
+   ↓
        
    SHA-256
-       ↓
+   
+   ↓
+       
    32-Byte Hash
-       ↓
+   
+   ↓
+       
 Compare with Stored Hash
+
+<br>
 
 If the hashes do not match, the application displays:
 
@@ -223,7 +235,8 @@ The password is incorrect.
 
 The password itself is not stored directly.
 
-
+<br>
+<br>
 <br>
 
 Salt Generation :
@@ -235,16 +248,27 @@ The salt is used by PBKDF2 during AES key derivation.
 <br>
 
 
+<br>
+
 PBKDF2 :
 
 The AES key is generated using:
 
+<br>
+
 Algorithm: PBKDF2-HMAC-SHA256
+
 Iterations: 100,000
+
 Output Key Size: 16 bytes
+
+<br>
 
 The 16-byte derived key is suitable for AES-128.
 
+<br>
+
+<br>
 
 <br>
 
@@ -258,15 +282,22 @@ The IV is used with AES-128-CBC during encryption and is stored in the encrypted
 
 <Br>
 
+<br>
+
 
 AES Encrypted File Structure :
 
 The AES encrypted file contains:
 
 32 bytes  → SHA-256 password hash
+
 16 bytes  → Salt
+
 16 bytes  → IV
+
 Remaining → Ciphertext
+
+<br>
 
 
 <br>
@@ -282,37 +313,64 @@ The application supports both text and binary files.
 
 <br>
 
+<br>
 
-Output File Naming
 
-Encryption :
+Output File Naming :
+<br>
+
+Encryption :-
+
 original.txt
-     ↓
+    
+  ↓
+  
 original_encrypted.txt
 
-Caesar/Vigenere Decryption
+<br>
+
+Caesar/Vigenere Decryption :
 
 original_encrypted.txt
-     ↓
+
+   ↓
+   
 original_decrypted.txt
 
-AES-128 Decryption
+<br>
+
+AES-128 Decryption :
 
 original_encrypted.txt
-     ↓
+   
+  ↓
+    
 original.txt
 
-File Removal Behavior
+<br>
+<br>
+
+<br>
+
+File Removal Behavior :
 
 After successful encryption:
 
 Original File → Removed
+
 Encrypted File → Remains
+
+<br>
 
 After successful decryption:
 
 Encrypted File → Removed
+
 Decrypted File → Remains
+
+<br>
+
+<br>
 
 <br>
 
@@ -328,6 +386,8 @@ The application provides:
 - Encrypt button
 - Decrypt button
 - Status messages
+
+<br>
 
 <br>
 
