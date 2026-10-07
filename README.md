@@ -207,6 +207,8 @@ Encrypted Data
 
 <br>
 
+<br>
+
 Password Verification :
 
 The entered password is converted into a SHA-256 hash.
@@ -237,6 +239,8 @@ The password itself is not stored directly.
 
 <br>
 <br>
+
+
 <br>
 
 Salt Generation :
@@ -315,6 +319,7 @@ The application supports both text and binary files.
 
 <br>
 
+<br>
 
 Output File Naming :
 <br>
@@ -348,6 +353,7 @@ original_encrypted.txt
 original.txt
 
 <br>
+
 <br>
 
 <br>
@@ -464,10 +470,7 @@ The main purpose of this project is to demonstrate practical use of:
 - Salt and IV generation
 - CMake
 
-This project was developed for educational purposes.
-
 <br>
 
-License :
+This project was developed for educational purposes.
 
-This project is intended for educational purposes.
