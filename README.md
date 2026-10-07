@@ -279,10 +279,13 @@ For AES-128, the file data is read into memory before encryption or decryption.
 
 The application supports both text and binary files.
 
+
+<br>
+
+
 Output File Naming
 
-Encryption
-
+Encryption :
 original.txt
      ↓
 original_encrypted.txt
