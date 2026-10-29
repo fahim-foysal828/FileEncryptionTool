@@ -200,7 +200,9 @@ cd FileEncryptionTool
 ## 🎓 Supervisor
 
 **Dr. Ziaur Rahman**
-Professor, Department of ICT
+
+Professor,
+Department of ICT
 Mawlana Bhashani Science and Technology University
 
 ---
