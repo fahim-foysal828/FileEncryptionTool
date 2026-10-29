@@ -25,8 +25,8 @@
 - [Demo](#-demo)
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
-- [Project Structure](#-project-structure)
-- [How the Application Works](#-how-the-application-works)
+- [Project Structure](#project-structure)
+- [How the Application Works](#how-the-application-works)
 - [Algorithms](#-algorithms)
 - [AES Encrypted File Structure](#-aes-encrypted-file-structure)
 - [Output File Naming](#-output-file-naming)
@@ -77,7 +77,7 @@ This project was developed for the **ICT 1200 – Project** course for education
 | **SHA-256** | Password verification |
 | **PBKDF2-HMAC-SHA256** | AES key derivation |
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 FileEncryptionTool/
@@ -96,7 +96,7 @@ FileEncryptionTool/
 └── .gitignore
 ```
 
-## ⚙️ How the Application Works
+##  How the Application Works
 
 1. Select a file using the **Browse** button.
 2. Enter a password.
