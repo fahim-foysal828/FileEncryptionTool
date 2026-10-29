@@ -202,7 +202,9 @@ cd FileEncryptionTool
 **Dr. Ziaur Rahman**
 
 Professor,
+
 Department of ICT
+
 Mawlana Bhashani Science and Technology University
 
 ---
