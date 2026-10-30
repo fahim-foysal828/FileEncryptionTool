@@ -13,7 +13,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Purpose](https://img.shields.io/badge/Purpose-Educational-orange)
 
-[🎥 Demo Video](https://youtu.be/h1ehih1wZ0I) · [📄 Report (PDF)](report/report.pdf) · [🐞 Issues](https://github.com/fahim-foysal828/FileEncryptionTool/issues)
+[🎥 Demo Video](https://youtu.be/h1ehih1wZ0I) · [📄 Report (PDF)](report/report.pdf) · [🐞 Issues](https://github.com/fahim-foysal828/FileEncryptionTool/issues) · [🌐 Portfolio](https://fahim-foysal828.github.io)
 
 </div>
 
